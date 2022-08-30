@@ -26,6 +26,9 @@ let imgOne = document.querySelector('#firstimg');
 let imgTwo = document.querySelector('#secondimg');
 let imgThree = document.querySelector('#thirdimg');
 
+let clicks = 0;
+let maxClicksAllowed = 25;
+
 let Image = function(name, pic) {
   this.name = name;
   this.pic = pic;
@@ -75,6 +78,31 @@ for (let i = 0; i < 3;i++){
   console.log(Image.allImages[num]);
 
 }
+
+let firstimg = document.getElementById('firstimg');
+let secondimg = document.getElementById('secondimg');
+let thirdimg = document.getElementById('thirdimg');
+
+firstimg.addEventListener('click', imageClick);
+
+function imageClick(event) {
+    console.log(event.target);
+    // increment number of clicks.
+    // with each click generate 3 new images.
+    // when 25 clicks have been reached the eventHandler removes itself.
+    // record results
+}
+
+// Track clicks in seperate function.
+
+
+
+
+
+
+
+
+
 
 // function rand(){
 //     return Math.floor(Math.random() * images.length);
