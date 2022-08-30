@@ -13,19 +13,19 @@ h1 {
     flex-direction: row;
 }
 
-#firstimg {
+#product1 {
     outline: 1px solid black;
     max-width: 300px;
     max-height: 300px;
 }
 
-#secondimg {
+#product2 {
     outline: 1px solid black;
     max-width: 300px;
     max-height: 300px;
 }
 
-#thirdimg {
+#product3 {
     outline: 1px solid black;
     max-width: 300px;
     max-height: 300px;
