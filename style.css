@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    align-items: stretch;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#firstimg {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#secondimg {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#thirdimg {
+    max-width: 300px;
+    max-height: 300px;
+}
