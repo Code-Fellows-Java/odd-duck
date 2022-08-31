@@ -41,31 +41,4 @@ body {
     padding-top: 50px;
     max-width: 1000px;
     max-height: 400px;
-=======
-
-.images {
-    display: flex;
-    align-items: stretch;
-    align-content: flex-start;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
-#firstimg {
-    outline: 1px solid black;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-#secondimg {
-    outline: 1px solid black;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-#thirdimg {
-    outline: 1px solid black;
-    max-width: 300px;
-    max-height: 300px;
-
 }
