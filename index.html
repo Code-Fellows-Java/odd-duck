@@ -23,4 +23,30 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
     <script src="app.js"></script>
 </body>
+=======
+<html>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <h1>Choose An Image</h1>
+    <div class="images">
+        <img id="firstimg">
+        <img id="secondimg">
+        <img id="thirdimg">
+    </div>
+    <button id="my_button">Click me!</button>
+    <p>Clicked <span id="count">0</span> times.</p>
+
+    <script>
+        let clicks = 0;
+        let myButton = document.getElementById('my_button');
+        let countSpan = document.getElementById('count');
+
+        myButton.addEventListener('click', function onClick() {
+            clicks += 1;
+            countSpan.innerHTML = clicks;
+        });
+
+    </script>
+    <script src="app.js"></script>
 </html>
