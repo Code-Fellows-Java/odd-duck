@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(247, 247, 147);
+}
+
+
+.images {
+    border: 5px;
+    border-style: outset;
+    background-color: black;
+}
+
+#product1 {
+    outline: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+#product2 {
+    outline: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+#product3 {
+    outline: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+.chart {
+    padding-top: 50px;
+    max-width: 1000px;
+    max-height: 400px;
+}
